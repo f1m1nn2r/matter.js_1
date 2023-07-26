@@ -39,7 +39,7 @@ function rectangle(width, height){
         setTimeout(() => {
             loadImage(
                 // https://www.flaticon.com/packs/mothers-day-241
-                `/assets/img/test${i + 1}.png`,
+                `./assets/img/test${i + 1}.png`,
                 url => {
                     var square = Bodies.rectangle(
                         x, y, width, height,
